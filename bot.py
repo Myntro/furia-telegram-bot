@@ -2,7 +2,6 @@ import logging
 import random
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-import os
 
 # Configurar logs
 logging.basicConfig(
@@ -10,10 +9,10 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-# Seu TOKEN
-TOKEN = os.environ.get("TOKEN")
+# ✅ Seu TOKEN diretamente aqui
+TOKEN = "7524791054:AAGLjU1eMHbj1fA6bkwXzZHt7_k_3mAd82c"
 
-# Lista com os últimos resultados da FURIA
+# Últimos resultados da FURIA
 ULTIMOS_RESULTADOS = [
     "❌ FURIA 0 x 2 The MongolZ",
     "❌ FURIA 0 x 2 Virtus.pro",
